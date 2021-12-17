@@ -27,26 +27,27 @@
 
 body {
 	overflow-x: hidden;
+	overflow-y: auto;
 }
 
 
 .intro_bg {
-	width: 100%; height: 1080px;
-	background-color: #000;
+	width: 100%; height: 9999px;
+	background: #000;
 }
 
 .bg {
-	width: 100%; height: auto;
+	width: 100%;
 	background-size: cover;
     background-position: center;
     background-attachment: fixed;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-image: url("img/bg.png");
 	top: 0px;
 }
 
 .intro_content {
-	width: 100%; height: auto;
+	width: 100%; height: 1080px;
 	display: flex;
 }
 
@@ -807,7 +808,7 @@ body {
 .ability_section p {
 	font-size: 20px;
 	font-family: 'Pretendard', sans-serif; font-weight: 800;
-	margin: 38px 0px 4px 50px;
+	margin: 25px 0px 4px 50px;
 }
 
 .ability_section .photoshop {
